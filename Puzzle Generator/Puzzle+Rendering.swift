@@ -80,7 +80,7 @@ extension PuzzlePiece {
             context.translateBy(x: originInImage.x, y: originInImage.y)
             
             context.addPath(piecePath.cgPath)
-            context.setLineWidth(7.0)
+            context.setLineWidth(2.0)
             context.setStrokeColor(NSColor(white: 0.0, alpha: 0.5).cgColor)
             context.strokePath()
         }
